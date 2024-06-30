@@ -1,5 +1,5 @@
 .DS_Store
 *.log
-.reviewboard
+.reviewboardrc
 .vscode
 DS_Store
