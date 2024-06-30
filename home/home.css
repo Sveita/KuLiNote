@@ -1,0 +1,48 @@
+*root { 
+
+}
+
+
+
+#titleFolder1 { 
+    display : flex ;
+
+}
+
+
+.pinDeleteFolder { 
+    
+}
+
+#titleFolder1{ 
+    display : flex ;
+    width : 630px ; 
+    height : 22px ;
+    justify-content : space-between ;
+    align-items : center ;
+    margin-bottom : 26px ; 
+}
+
+.listContainer div { 
+    width : 176px ;
+    height : 176px ;
+    border : 1.5px black solid ;
+    box-shadow : 2px 2px [#color];
+}
+
+.listContainer { 
+    display : flex ;
+    gap : 22px ;
+}
+
+.listContainer .addNote { 
+    display : flex ; 
+    justify-content : center ; 
+    align-items : center;
+
+}
+
+.listContainer .addNoteBtn {
+    width : 42px;
+    height : 42px;
+}
