@@ -1,0 +1,21 @@
+#footer {
+    display : flex; 
+    align-items : center; 
+    justify-content : space-between ;
+    height : 99px ; 
+    width : full ;
+    padding : 0 22px ; 
+    background-image : var(--bg-gradient);
+}
+
+#footer h3 {
+    color : var(--white) 
+}
+.aboutusBtn {
+    padding : 8px 16px ; 
+    background-image : var(--bg-gradient) ; 
+    border : 3px solid var(--white) ;
+    border-radius : 30px ; 
+    font-size : 16px ; 
+    color : var(--white)
+}
