@@ -1,0 +1,12 @@
+#navbar {
+    height : 60px ; 
+    display : flex ;
+    align-items : center;
+    justify-content : space-between ;
+    background-image : var(--bg-gradient) ;
+    padding : 0 22px ;
+}
+
+#navbar h2 { 
+    color : var(--white) ; 
+}
