@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding : 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+body {
+
+}
+
+:root { 
+    --bg-gradient :linear-gradient(to right, #FAD0C4, #FFD1FF); 
+    --pink : #FFD1FF;
+    --box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+h1{
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+    @media screen (max-width:720px) {
+        font-size : 20px;
+    }
+}
+
+h2{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    @media screen (max-width:720px) {
+    }
+}
+
+h3{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    @media screen (max-width:720px) {
+        font-size : 14px;
+    }
+}
+
+h4{
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    @media screen (max-width:720px) {
+        font-size : 8px;
+    }
+}
+
+ h5{
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    @media screen (max-width:720px) {
+        font-family: "Inter", sans-serif;
+        font-size : 8px;
+    }
+}
+
+.nameFolder {
+    display: flex; 
+    width: 572px;
+    height: 28px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+#columnsContainer{
+    display: flex;
+    gap: 24px;
+}
+#columns {
+    width : 176px;
+    height : 176px;
+    border : 3px solid var(--pink);
+    padding: 14px;
+    display: flex ; 
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+}
+
+#columnAdd{
+    width : 176px;
+    height : 176px;
+    border : 3px solid var(--pink);
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.editDelete{
+    padding-left: 70%;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding-bottom: 4px;
+}
+
+.edit{
+    width: 18px;
+    height: 18px;
+}
+
+.delete {
+    width: 20px;
+    height: 20px;
+}
+
+#columns h2 {
+    margin-bottom: 6px ;
+}
+
+
+
