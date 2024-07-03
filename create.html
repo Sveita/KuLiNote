@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/create.css">
-</head>
-<body>
-
-
+    <link rel="stylesheet" href="./css/create.css" />
+    <link rel="stylesheet" href="./css/headerCreate.css">
+  </head>
+  <body>
     <!-- text center -->
-    <div class="textBody">
-        <div>
-            <h5>Title : </h5>
-            <textarea name="" id="inputTitle" cols="30" rows="10"></textarea>     
-        </div>
+    <header-component></header-component>
 
-        <div>
-            <h5>Content : </h5>
-            <textarea name="" id="inputContent" cols="30" rows="10"></textarea>
-        </div>
-         
-    </div>
+    <form>
+      <label for="title" >Title:</label>
+      <input type="text" id="title" name="title" />
+      <div id="msg"></div>
 
-</body>
+      <label for="content">Content:</label>
+      <textarea id="content" name="content"></textarea>
+
+      <label for="datetime">Date and Time:</label>
+      <input type="datetime-local" id="datetime" name="datetime" />
+    </form>
+    
+
+  </body>
+
+  <script src="./components/headerCreate.js"></script>
+  <script src="./script.js"></script>
+
 </html>
