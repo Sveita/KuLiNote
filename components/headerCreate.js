@@ -1,26 +1,25 @@
 const headerCreate = () => {
-    return 
-    `
+    return `  
     <!-- header -->
     <header id="header">
         <!-- left head -->
         <div id="leftHeader">
-            <button><img class="back" src="../image/backBTN.png" alt=""></button>
+            <button><img class="back" src="./image/backBTN.png" alt=""></button>
             <h3>Date : </h3>
         </div>
-
         <!-- right -->
-        <button class="finish">
+        <button id="finish">
             Finish
         </button>
-    </header>
-    `
+    </header>`
 }
 
 class HeaderCreate extends HTMLElement {
-    connectedCalledback () {
-        this.innerHTML = headerCreate (); 
+    constructor(){
+        super()
+        this.innerHTML = headerCreate(); 
     }
+   
 }
 
-customElements.define('headerCreate-element', HeaderCreate)
+customElements.define('header-component', HeaderCreate)
