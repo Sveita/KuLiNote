@@ -4,10 +4,10 @@ const headerCreate = () => {
     <header id="header">
         <!-- left head -->
         <div id="leftHeader">
-            <button><img class="back" src="./image/backBTN.png" alt=""></button>
+            <button><img class="back" src="../image/backBTN.png" alt=""></button>
         </div>
         <!-- right -->
-        <button  form="create-form" type="submit" class="finish" >
+        <button  form="form" type="submit" class="finish" >
             Finish
         </button>
     </header>`

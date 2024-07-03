@@ -6,8 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/navbar.css">
   </head>
   <body>  
     <navbar-element></navbar-element>
@@ -21,36 +19,26 @@
 
     <!-- rows1 folder important -->
     <div id="columnsContainer">
-      <!-- note1  -->
-      <div id="columns">
-        <div>
-          <!-- icon delete and edit -->
-          <div id="iconContainer">
-            <button><img src="./image/edit.png" alt="" id="edit" /></button>
-            <button>
-              <img src="./image/trash.png" alt="" id="deleteNote" />
-            </button>
-          </div>
 
-          <!-- title -->
-          <h2 id="userInputTitle">Title</h2>
-          <h3 id="userInputcContent">content</h3>
-        </div>
-
-        <!-- date -->
-        <h4 id="userInputDate">01/01/24</h4>
-      </div>
-
+     <div id="card-container">
+          <!-- card render here -->
+     </div>
       <!-- Create more note -->
       <div>
-        <button id="columnAdd">
+        <a href="./pages/create.html" id="columnAdd">
             <img src="./image/addNote.png" alt="">
-        </button>
+        </a>
       </div>
     </div>
     <footer-element></footer-element>
   </body>
+  <!-- footer -->
   <script src="./components/footer.js"></script>
+  <!-- navbar -->
   <script src="./components/navbar.js"></script>
+  <!-- card  -->
+  <script type="module" src="./components/card.js"></script>
+  <!-- script -->
+  <script type="module" src="./script.js"></script>
 </html>
 

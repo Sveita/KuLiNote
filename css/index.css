@@ -1,7 +1,6 @@
 
 #headContainer {
     display: flex; 
-    width: 1440px;
     height: 48px;
     justify-content: space-between;
     align-items: center;
@@ -11,12 +10,12 @@
 
 #columnsContainer{
     display: flex;
+    width:100%;
     gap: 28px;
-    width : 1440px; 
+    height:100vw;
     padding: 16px ;
-    margin: 12px auto;
-    overflow-x: scroll;
 }
+
 #columns {
     width : 176px;
     height : 176px;
