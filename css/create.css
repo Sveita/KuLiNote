@@ -13,7 +13,8 @@
     display: flex;  
     align-items: center;
     gap: 32px;
-    width: 1440px
+    width: 1440px;
+    padding: 0px 48px;
 }
 
 .form { 
@@ -46,6 +47,7 @@
     display: flex;
     align-items: center;
     gap: 32px;
+    padding: 0px 48px;
 }
 
 .inputTitle{
@@ -62,6 +64,8 @@
     font-family: "Roboto", sans-serif;
     font-weight: semibold;
     font-style: normal;
+    padding: 0px 48px;
+    
 }
 
 .contentInput {
@@ -70,6 +74,9 @@
     font-weight: normal;
     font-style: normal;
     width: 1400px;
+    height: 74vh;
     margin: 10px auto;
-
+    @media screen () {
+        
+    }
 }
