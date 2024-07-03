@@ -1,15 +1,21 @@
+
 #headContainer {
     display: flex; 
-    width: 572px;
-    height: 28px;
+    width: 1440px;
+    height: 48px;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 26px;
+    margin : 24px auto;
+    padding: 0 36px;
 }
 
 #columnsContainer{
     display: flex;
-    gap: 24px;
+    gap: 28px;
+    width : 1440px; 
+    padding: 16px ;
+    margin: 12px auto;
+    overflow-x: scroll;
 }
 #columns {
     width : 176px;
