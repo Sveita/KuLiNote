@@ -92,7 +92,7 @@ h4{
     height : 24px ; 
 }
 
-#finish{
+.finish{
     padding: 6px 24px ;
     background-image: var(--bg-gradient);
     border: 2px solid black;
