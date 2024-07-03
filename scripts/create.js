@@ -29,28 +29,5 @@ const createDiary = (title, content, date) => {
   localStorage.setItem("diaryArray", JSON.stringify(diaryArr));
 };
 
-// edit Function
-const editUpdate = (id,title,content,date) =>{
-  const diaryArr = JSON.parse(localStorage.getItem("diaryArray")) || [];
-  console.log(diaryArr);
-  if(diaryArr.length>0){
-    let find = diaryArr.findIndex(i=>i.id == id)
-    const newDiary = {
-    id,
-    title,
-    content,
-    date
-  }
-  // find = newDiary
-  diaryArr[find] = newDiary
-  localStorage.setItem('diaryArray', JSON.stringify(diaryArr));
-  }
-}
 
-const deleteDiary = (id) => {
-  let diaryArr = JSON.parse(localStorage.getItem("diaryArray")) || [];
-  diaryArr = diaryArr.filter(diary => diary.id !== id);
-  localStorage.setItem("diaryArray", JSON.stringify(diaryArr));
-
-};
 
