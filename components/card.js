@@ -6,8 +6,8 @@ const createCard = (id,title,content,date) =>{
         <!-- icon delete and edit -->
         <div id="iconContainer">
           <a href="../pages/edit.html?${id}"><img src="./image/edit.png" alt="" id="edit" /></a>
-          <button>
-            <img src="./image/trash.png" alt="" id="deleteNote" />
+          <button id="deleteNote">
+            <img src="./image/trash.png" id="${id}" alt=""  />
           </button>
         </div>
 
