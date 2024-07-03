@@ -8,11 +8,11 @@
   </head>
   <body>
     <!-- Folder Import -->
-    <div class="nameFolder">
+    <div id="headContainer">
       <h2>Important</h2>
-      <span id="pinDelete">
-        <img src="./image/pin.png" alt="" class="pin" />
-        <img src="./image/trash.png" alt="" class="delete" />
+      <span id="iconContainer">
+        <img src="./image/pin.png" alt="" id="pin" />
+        <img src="./image/trash.png" alt="" id="deleteFolder" />
       </span>
     </div>
 
@@ -22,20 +22,20 @@
       <div id="columns">
         <div>
           <!-- icon delete and edit -->
-          <div class="editDelete">
-            <button><img src="./image/edit.png" alt="" class="edit" /></button>
+          <div id="iconContainer">
+            <button><img src="./image/edit.png" alt="" id="edit" /></button>
             <button>
-              <img src="./image/trash.png" alt="" class="delete" />
+              <img src="./image/trash.png" alt="" id="deleteNote" />
             </button>
           </div>
 
           <!-- title -->
-          <h2 id="inputTitle">Title</h2>
-          <h3 id="inputcContent">content</h3>
+          <h2 id="userInputTitle">Title</h2>
+          <h3 id="userInputcContent">content</h3>
         </div>
 
         <!-- date -->
-        <h4 id="inputDate">01/01/24</h4>
+        <h4 id="userInputDate">01/01/24</h4>
       </div>
 
       <!-- Create more note -->
