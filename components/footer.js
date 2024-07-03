@@ -1,7 +1,5 @@
 const footer = () => {
-    return 
-    `
-    <footer id="footer">
+    return `<footer id="footer">
         <h3>Grab your note with KuLi !</h3>
         <button class="aboutusBtn">About us</button>
     </footer>
@@ -9,9 +7,12 @@ const footer = () => {
 }
 
 class Footer extends HTMLElement {
-    connectedCalledback () {
-        this.innerHTML = footer();
+    constructor(){
+        super()
+        this.innerHTML = footer(); 
     }
 }
+
+
 
 customElements.define('footer-element', Footer)
