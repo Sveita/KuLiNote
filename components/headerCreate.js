@@ -8,7 +8,7 @@ const headerCreate = () => {
             <h3>Date : </h3>
         </div>
         <!-- right -->
-        <button id="finish">
+        <button  form="create-form" type="submit" class="finish" >
             Finish
         </button>
     </header>`

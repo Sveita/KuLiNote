@@ -5,28 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/create.css" />
-    <link rel="stylesheet" href="./css/headerCreate.css">
+    <link rel="stylesheet" href="./css/headerCreate.css" />
   </head>
   <body>
     <!-- text center -->
     <header-component></header-component>
 
-    <form>
-      <label for="title" >Title:</label>
-      <input type="text" id="title" name="title" />
+    <form id="create-form">
+      <label for="title">Title :</label>
+      <input type="text" id="title" name="title" required />
       <div id="msg"></div>
 
-      <label for="content">Content:</label>
-      <textarea id="content" name="content"></textarea>
+      <label for="content">Content :</label>
+      <textarea id="content" name="content" required></textarea>
 
-      <label for="datetime">Date and Time:</label>
-      <input type="datetime-local" id="datetime" name="datetime" />
+      <label for="date">Date :</label>
+      <input type="date" id="date" name="datetime" required />
+
+      <button type="submit">Add Note</button>
     </form>
-    
 
+    <!-- render note -->
+    <div id="columns"></div>
+
+    <script src="./components/headerCreate.js"></script>
+    <script type="module" src="./scripts/create.js"></script>
   </body>
-
-  <script src="./components/headerCreate.js"></script>
-  <script src="./script.js"></script>
-
 </html>
