@@ -5,7 +5,6 @@ const headerCreate = () => {
         <!-- left head -->
         <div id="leftHeader">
             <button><img class="back" src="./image/backBTN.png" alt=""></button>
-            <h3>Date : </h3>
         </div>
         <!-- right -->
         <button  form="create-form" type="submit" class="finish" >
