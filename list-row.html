@@ -4,35 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/list-row.css">
 </head>
 <body>
-    <navbar class="navbar">
-        <h1 class="navbar_Title">KuLiNote</h1>
-        <img src></img>
-    </navbar>
-    
-    <!-- Hamburger -->
-    <div>
-        <navbar class="side_bar"></navbar>
-        <h2 class="folder">Folder</h2>
-        <!-- list container -->
-        <div>
-            <!-- list1 -->
-            <div class="Important">
-                <h4>Important</h4>
-                <img src="" alt="">
+    <div id="folderContainer">
+        <!-- head of notes -->
+        <div id="headContainer">
+            <h2>Important</h2>
+            <!-- button : pin add delete foler -->
+            <div id="iconContainer">
+                <img src="./image/pin.png" alt="" id="pin">
+                <img src="./image/add note list page.png" alt="" id="add">
+                <img src="./image/trash.png" alt="" id="deleteFolder">
             </div>
+        </div>
 
-            <!-- list2 -->
-            <div class="List">
-                <h4>List</h4>
-                <img src="" alt="">
-            </div>
 
-            <!-- list3 -->
-            <div class="Todo">
-                <h4>Todo</h4>
-                <img src="" alt="">
+        <!-- Notes -->
+        <div id="columnsContainer">
+            <!-- column1 -->
+            <div id="columns">
+                <!-- Title and content (left size) -->
+                <div id="userInputContainer">
+                    <h2 id="userInputTitle"> Title</h2>
+                    <h3 id="userInputContent">Content</h3>
+                </div>
+
+                <!-- date, edit button, delete button (right size) -->
+                <div id="iconContainer">
+                    <h4 id="userInputDate">22/04/24</h4>
+                    <img src="./image/edit.png" alt="" id="edit">
+                    <img src="./image/trash.png" alt="" id="deleteNote">
+                </div>
             </div>
         </div>
     </div>

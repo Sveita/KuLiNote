@@ -73,7 +73,7 @@ h4{
     }
 }
 
-.nameFolder {
+#headContainer {
     display: flex; 
     width: 572px;
     height: 28px;
@@ -97,6 +97,29 @@ h4{
     box-shadow: var(--box-shadow);
 }
 
+#iconContainer{
+    padding-left: 70%;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding-bottom: 4px;
+}
+
+#edit{
+    width: 18px;
+    height: 18px;
+}
+
+#deleteNote {
+    width: 20px;
+    height: 20px;
+}
+
+#columns h2 {
+    margin-bottom: 6px ;
+}
+
+
 #columnAdd{
     width : 176px;
     height : 176px;
@@ -106,28 +129,5 @@ h4{
     align-items: center;
     box-shadow: var(--box-shadow);
 }
-
-.editDelete{
-    padding-left: 70%;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    padding-bottom: 4px;
-}
-
-.edit{
-    width: 18px;
-    height: 18px;
-}
-
-.delete {
-    width: 20px;
-    height: 20px;
-}
-
-#columns h2 {
-    margin-bottom: 6px ;
-}
-
 
 
