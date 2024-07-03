@@ -1,5 +1,5 @@
 const noteContainer = document.getElementById("columns");
-const createForm = document.querySelector("#create-form");
+const createForm = document.querySelector("#form");
 
 // Add note
 createForm.addEventListener("submit", (e) => {
@@ -18,15 +18,17 @@ createForm.addEventListener("submit", (e) => {
 
 // create Dairy Function
 const createDiary = (title, content, date) => {
-  const diaryArr = JSON.parse(localStorage.getItem("diaryArray")) || [];
-  const newDiary = {
-    id:diaryArr.length + 1,
-    title,
-    content,
-    date,
-  };
+    const diaryArr = JSON.parse(localStorage.getItem("diaryArray")) || [];
+    const newDiary = {
+      id:diaryArr.length + 1,
+      title,
+      content,
+      date,
+    };
   diaryArr.push(newDiary);
   localStorage.setItem("diaryArray", JSON.stringify(diaryArr));
+  alert("create diary successful!!")
+  window.location = '../index.html'
 };
 
 

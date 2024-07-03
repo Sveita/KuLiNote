@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Edit Page</title>
     <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
@@ -12,6 +12,8 @@
     <header-component></header-component>
 
     <form class="form" id="form">
+                <!-- id -->
+        <input type="hidden" id="UpdateId"/>
       <div class="dateContainer">
         <label class="date" for="date">Date :</label>
         <input class="dateCol" type="date" id="date" name="datetime" required />
@@ -27,10 +29,6 @@
         <label class="content" for="content">Content :</label>
         <textarea class="contentInput" id="content" name="content" required></textarea>
       </div>
-      
-
-
-
       <!-- <button type="submit">Add Note</button> -->
     </form>
 
@@ -41,7 +39,7 @@
 
   </body>    
   <script src="../components/headerCreate.js"></script>
-  <script src="../scripts/create.js"></script>
   <script src="../components/navbar.js"></script>
   <script src="../components/footer.js"></script>
+  <script type="module" src="../scripts/update.js"></script>
 </html>
