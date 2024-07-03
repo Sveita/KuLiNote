@@ -1,43 +1,33 @@
-
 #headContainer {
-    display: flex; 
     height: 48px;
-    justify-content: space-between;
-    align-items: center;
-    margin : 24px auto;
     padding: 0 36px;
-}
-
-#columnsContainer{
-    display: flex;
-    width:100%;
-    gap: 28px;
-    height:100vw;
-    padding: 16px ;
+    max-width: 1440px;
+    margin: 24px auto;
 }
 
 #columns {
-    width : 176px;
-    height : 176px;
+    width : 200px;
+    height : 200px;
     border : 3px solid var(--pink);
-    padding: 14px;
-    display: flex ; 
+    padding: 16px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    display: flex ;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: var(--box-shadow);
+}
+
+#card-container { 
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 16px ;
 }
 
 #iconContainer{
-    padding-left: 70%;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    padding-bottom: 4px;
-}
-
-#edit{
-    width: 18px;
-    height: 18px;
+    padding-left: 65%;
 }
 
 #deleteNote {
@@ -51,8 +41,8 @@
 
 
 #columnAdd{
-    width : 176px;
-    height : 176px;
+    width : 200px;
+    height : 200px;
     border : 3px solid var(--pink);
     display: flex ; 
     justify-content: center;
