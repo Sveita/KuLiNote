@@ -35,7 +35,7 @@ h1{
     font-family: "Roboto", sans-serif;
     font-weight:bolder;
     font-style: normal;
-    @media screen (max-width:720px) {
+    @media screen (max-width:1400px) {
         font-size : 24px;
     }
 }
@@ -45,8 +45,8 @@ h2{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-    @media screen (max-width:720px) {
-        font-size : 20px
+    @media screen (max-width:1440px) {
+        font-size : 20pxpx
     }
 }
 
@@ -55,7 +55,7 @@ h3{
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-style: normal;
-    @media screen (max-width:720px) {
+    @media screen (max-width:1400px) {
         font-size : 18px;
     }
 }
@@ -65,7 +65,7 @@ h4{
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-style: normal;
-    @media screen (max-width:720px) {
+    @media screen (max-width:1400px) {
         font-size : 16px;
     }
 }
@@ -76,7 +76,7 @@ h4{
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    @media screen (max-width:720px) {
+    @media screen (max-width:1400px) {
         font-family: "Inter", sans-serif;
         font-size : 15px;
     }
