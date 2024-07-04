@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/create.css" />
+  </head>
+  <body>
+    <navbar-element></navbar-element>
+    <header-component></header-component>
+    <main>
+      <form class="form" id="form">
+        <div class="dateContainer">
+          <label class="date" for="date">Date :</label>
+          <input class="dateCol" type="date" id="date" name="datetime" required />
+        </div>
+
+        <div class="titleInputContainer">
+          <label class="title" for="title">Title :</label>
+          <input
+            class="inputTitle"
+            type="text"
+            id="title"
+            name="title"
+            required
+          />
+        </div>
+
+        <div class="contentCol">
+          <label class="content" for="content">Content :</label>
+          <textarea
+            class="contentInput"
+            id="content"
+            name="content"
+            required
+          ></textarea>
+        </div>
+      </form>
+
+      <div id="columns"></div>
+    </main>
+    <footer-element></footer-element>
+
+  </body>
+  <script src="../components/headerCreate.js"></script>
+  <script src="../scripts/create.js"></script>
+  <script src="../components/navbar.js"></script>
+  <script src="../components/footer.js"></script>
+</html>
