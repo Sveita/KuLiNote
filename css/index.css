@@ -61,6 +61,14 @@
         width: 36px;
         height: 36px;
     }
+
+    #columns{
+        padding : 14px
+    }
+
+    #iconContainer{
+        padding-left: 70%;
+    }
 }
 
 @media (max-width : 960px ){
@@ -71,6 +79,14 @@
     .addButton {
         width: 32px;
         height: 32px;
+    }
+
+    #columns{
+        padding : 12px
+    }
+
+    #iconContainer{
+        padding-left: 65%;
     }
 }
 
@@ -83,6 +99,13 @@
         width: 30px;
         height: 30px;
     }
+    #columns{
+        padding : 8px
+    }
+
+    #iconContainer{
+        padding-left: 60%;
+    }
 }
 
 @media (max-width : 540px ){
@@ -93,5 +116,12 @@
     .addButton {
         width: 28px;
         height: 28px;
+    }
+    #columns{
+        padding : 6px
+    }
+
+    #iconContainer{
+        padding-left: 60%;
     }
 }
