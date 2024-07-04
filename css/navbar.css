@@ -1,0 +1,26 @@
+#navbar {
+    height : 60px ; 
+    display : flex ;
+    align-items : center;
+    justify-content : space-between ;
+    background-image : var(--bg-gradient) ;
+    padding : 0 22px ;
+    background-color: green;
+    @media (max-width : 1400px) {
+        height: 44px;
+        padding: 0px 12px;
+    }
+}
+
+#navbar h2 { 
+    color : var(--white) ; 
+    @media (max-width : 1400px){
+        font-size : 20px ;
+    }
+}
+
+.navbarBtn {
+    @media (max-width : 1440px) {
+        width: 24px;
+    }
+}

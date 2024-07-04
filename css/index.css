@@ -1,0 +1,127 @@
+#headContainer {
+    height: 48px;
+    padding: 0 36px;
+    max-width: 1440px;
+    margin: 24px auto;
+}
+
+#columns {
+    width : 200px;
+    height : 200px;
+    border : 3px solid var(--pink);
+    padding: 16px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#card-container { 
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    align-content:start   ;
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 16px ;
+    height : 85vh;
+}
+
+#iconContainer{
+    padding-left: 65%;
+}
+
+#deleteNote {
+    width: 20px;
+    height: 20px;
+}
+
+#columns h2 {
+    margin-bottom: 6px ;
+}
+
+
+#columnAdd{
+    width : 200px;
+    height : 200px;
+    border : 3px solid var(--pink);
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+@media (max-width : 1440px) {
+    #columnAdd {
+        width: 180px ; 
+        height : 180px ; 
+    }
+    .addButton {
+        width: 36px;
+        height: 36px;
+    }
+
+    #columns{
+        padding : 14px
+    }
+
+    #iconContainer{
+        padding-left: 70%;
+    }
+}
+
+@media (max-width : 960px ){
+    #columnAdd {
+        width: 160px ; 
+        height : 160px ; 
+    }
+    .addButton {
+        width: 32px;
+        height: 32px;
+    }
+
+    #columns{
+        padding : 12px
+    }
+
+    #iconContainer{
+        padding-left: 65%;
+    }
+}
+
+@media (max-width : 720px ){
+    #columnAdd {
+        width: 140px ; 
+        height : 140px ; 
+    }
+    .addButton {
+        width: 30px;
+        height: 30px;
+    }
+    #columns{
+        padding : 8px
+    }
+
+    #iconContainer{
+        padding-left: 60%;
+    }
+}
+
+@media (max-width : 540px ){
+    #columnAdd {
+        width: 120px ; 
+        height : 120px ; 
+    }
+    .addButton {
+        width: 28px;
+        height: 28px;
+    }
+    #columns{
+        padding : 6px
+    }
+
+    #iconContainer{
+        padding-left: 60%;
+    }
+}
