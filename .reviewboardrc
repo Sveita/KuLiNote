@@ -1,0 +1,5 @@
+REVIEWBOARD_URL = "https://review.clp.kr/"
+REPOSITORY = "HexCode/Neav-Rothanasveita/Diary-Web"
+REPOSITORY_TYPE = "git"
+BRANCH = "feature/list_page"
+LAND_DEST_BRANCH = "feature/list_page"
