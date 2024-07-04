@@ -7,6 +7,9 @@
     margin : 8px auto ; 
     padding: 0 24px;
     height: 47px;
+    @media (max-width : 840px ){
+        
+    }
 }
 
 #leftHeader {
@@ -25,4 +28,8 @@
     border: 2px solid black;
     border-radius: 30px;
     font-size: 16px;
+    @media (max-width : 840px) {
+        font-size : 12px ;  
+        padding : 3px 12px;
+    }
 }   
