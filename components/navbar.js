@@ -1,7 +1,7 @@
 const navbar = () => {
     return `<navbar id="navbar">
         <h2>KuLiNote</h2>
-        <img src="../image/List-Bullets--Streamline-Ultimate 1.png" alt="">
+        <img class="navbarBtn" src="../image/List-Bullets--Streamline-Ultimate 1.png" alt="">
     </navbar>
     `
 }
