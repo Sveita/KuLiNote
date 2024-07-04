@@ -7,7 +7,7 @@
         width : 20px ;
     }
 
-    #trash {
+    .trash {
         width: 20px;
     }
 }
@@ -21,7 +21,7 @@
         width : 18px ;
     }
 
-    #trash {
+    .trash {
         width: 18px;
     }
 
@@ -36,7 +36,7 @@
         width : 16px ;
     }
 
-    #trash {
+    .trash {
         width: 16px;
     }
 
@@ -51,8 +51,9 @@
         width : 14px ;
     }
 
-    #trash {
+    .trash {
         width: 14px;
     }
 
 }
+

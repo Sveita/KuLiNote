@@ -25,7 +25,7 @@ const id = locationUrl[1];
     handleUpdate();
     
 })
-  }
+}
 
 
 
