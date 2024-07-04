@@ -19,3 +19,49 @@
     font-size : 16px ; 
     color : var(--white)
 }
+
+
+@media (max-width : 1440px) {
+    #footer{
+        height: 90px ; 
+    }
+    .aboutusBtn{
+        padding : 6px 14px ; 
+        font-size : 14px ;
+        border : 3px solid var(--white)
+    }
+}
+
+@media (max-width : 960px ){
+    #footer{
+        height: 80px ; 
+    }
+    .aboutusBtn{
+        padding : 5px 12px ; 
+        font-size : 13px ;
+        border : 2px solid var(--white)
+    }
+}
+
+
+@media (max-width : 720px ){
+    #footer{
+        height: 70px ; 
+    }
+    .aboutusBtn{
+        padding : 4px 10px ; 
+        font-size : 12px ;
+        border : 2px solid var(--white)
+    }
+}
+
+@media (max-width : 540px ){
+    #footer{
+        height: 60px ; 
+    }
+    .aboutusBtn{
+        padding : 3px 8px ; 
+        font-size : 10px ;
+        border : 1px solid var(--white)
+    }
+}
