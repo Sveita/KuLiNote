@@ -1,0 +1,58 @@
+@media (max-width : 1440px) {
+    #columns {
+        width: 180px ; 
+        height : 180px ; 
+    }
+    #edit{
+        width : 20px ;
+    }
+
+    #trash {
+        width: 20px;
+    }
+}
+
+@media (max-width : 960px ){
+    #columns {
+        width: 160px ; 
+        height : 160px ; 
+    }
+    #edit{
+        width : 18px ;
+    }
+
+    #trash {
+        width: 18px;
+    }
+
+}
+
+@media (max-width : 720px ){
+    #columns {
+        width: 140px ; 
+        height : 140px ; 
+    }
+    #edit{
+        width : 16px ;
+    }
+
+    #trash {
+        width: 16px;
+    }
+
+}
+
+@media (max-width : 540px ){
+    #columns {
+        width: 120px ; 
+        height : 120px ; 
+    }
+    #edit{
+        width : 14px ;
+    }
+
+    #trash {
+        width: 14px;
+    }
+
+}
