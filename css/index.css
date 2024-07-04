@@ -21,9 +21,11 @@
     display: flex;
     gap: 28px;
     flex-wrap: wrap;
+    align-content:start   ;
     max-width: 1440px;
     margin: 0px auto;
     padding: 16px ;
+    height : 85vh;
 }
 
 #iconContainer{
@@ -50,4 +52,46 @@
     box-shadow: var(--box-shadow);
 }
 
+@media (max-width : 1440px) {
+    #columnAdd {
+        width: 180px ; 
+        height : 180px ; 
+    }
+    .addButton {
+        width: 36px;
+        height: 36px;
+    }
+}
 
+@media (max-width : 960px ){
+    #columnAdd {
+        width: 160px ; 
+        height : 160px ; 
+    }
+    .addButton {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media (max-width : 720px ){
+    #columnAdd {
+        width: 140px ; 
+        height : 140px ; 
+    }
+    .addButton {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width : 540px ){
+    #columnAdd {
+        width: 120px ; 
+        height : 120px ; 
+    }
+    .addButton {
+        width: 28px;
+        height: 28px;
+    }
+}
