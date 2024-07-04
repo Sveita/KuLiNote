@@ -4,7 +4,7 @@ const headerCreate = () => {
     <header id="header">
         <!-- left head -->
         <div id="leftHeader">
-            <button><img class="back" src="../image/backBTN.png" alt=""></button>
+        <a href="../index.html"><img class="back" src="../image/backBTN.png" alt=""></a>
         </div>
         <!-- right -->
         <button  form="form" type="submit" class="finish" >
